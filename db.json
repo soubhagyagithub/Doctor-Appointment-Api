@@ -298,6 +298,13 @@
       "email": "john@example.com",
       "password": "patient123",
       "phone": "+1-555-1001"
+    },
+    {
+      "id": "2",
+      "name": "Mohan Das",
+      "email": "mohan@example.com",
+      "password": "mohan123",
+      "phone": "+1-545-1001"
     }
   ],
   "appointments": [
@@ -309,7 +316,7 @@
       "patientName": "John Doe",
       "specialty": "Cardiology",
       "date": "2025-08-07",
-      "time": "14:00",
+      "time": "12:00",
       "status": "confirmed",
       "consultationType": "video",
       "symptoms": "hshshs",
