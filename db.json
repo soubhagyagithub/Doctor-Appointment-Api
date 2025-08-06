@@ -3,8 +3,8 @@
     {
       "id": "1",
       "name": "Dr. Sarah Johnson",
-      "email": "sarah.johnson@email.com",
-      "password": "doctor123",
+      "email": "sarah@example.com",
+      "password": "password123",
       "phone": "+1-555-0101",
       "specialty": "Cardiology",
       "qualifications": "MD, FACC",
@@ -25,7 +25,7 @@
           "Thursday",
           "Saturday"
         ]
-      },
+    },
       "timeSlots": [
         "09:00",
         "10:00",
@@ -34,7 +34,7 @@
         "15:00",
         "16:00"
       ],
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "https://i.postimg.cc/FRdQCcCQ/dr-sarah.jpg",
       "about": "Experienced cardiologist specializing in heart disease prevention and treatment.",
       "consultationType": [
         "clinic",
@@ -45,8 +45,8 @@
     {
       "id": "2",
       "name": "Dr. Michael Chen",
-      "email": "michael.chen@email.com",
-      "password": "doctor123",
+      "email": "michael@example.com",
+      "password": "password123",
       "phone": "+1-555-0102",
       "specialty": "Dermatology",
       "qualifications": "MD, FAAD",
@@ -76,7 +76,7 @@
         "14:00",
         "15:00"
       ],
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "https://i.postimg.cc/hvvKB6tN/dr-michael.jpg",
       "about": "Board-certified dermatologist with expertise in skin conditions and cosmetic procedures.",
       "consultationType": [
         "clinic",
@@ -87,8 +87,8 @@
     {
       "id": "3",
       "name": "Dr. Emily Rodriguez",
-      "email": "emily.rodriguez@email.com",
-      "password": "doctor123",
+      "email": "emily.rodriguez@example.com",
+      "password": "password123",
       "phone": "+1-555-0103",
       "specialty": "Neurology",
       "qualifications": "MD, PhD",
@@ -117,7 +117,7 @@
         "14:00",
         "15:00"
       ],
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "https://i.postimg.cc/YCGjgGkT/dr-emily.jpg",
       "about": "Neurologist specializing in brain disorders and neurological conditions.",
       "consultationType": [
         "clinic",
@@ -126,142 +126,99 @@
     },
     {
       "id": "4",
-      "name": "Dr. James Wilson",
-      "email": "james.wilson@email.com",
-      "password": "doctor123",
+      "name": "Dr. Aisha Khan",
+      "email": "aisha.khan@example.com",
+      "password": "password123",
       "phone": "+1-555-0104",
-      "specialty": "Orthopedics",
-      "qualifications": "MD, FAAOS",
-      "experience": "20 years",
-      "clinicAddress": "Bone & Joint Clinic, 321 Ortho Drive, Miami",
-      "rating": 4.6,
-      "reviewCount": 189,
-      "consultationFee": 180,
-      "videoConsultationFee": 120,
-      "availability": {
-        "clinic": [
-          "Monday",
-          "Wednesday",
-          "Thursday"
-        ],
-        "online": [
-          "Tuesday",
-          "Friday",
-          "Saturday"
-        ]
-      },
-      "timeSlots": [
-        "08:00",
-        "09:00",
-        "10:00",
-        "13:00",
-        "14:00"
-      ],
-      "image": "/placeholder.svg?height=200&width=200",
-      "about": "Orthopedic surgeon specializing in joint replacement and sports medicine.",
-      "consultationType": [
-        "clinic",
-        "video",
-        "call"
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Dr. Lisa Thompson",
-      "email": "lisa.thompson@email.com",
-      "password": "doctor123",
-      "phone": "+1-555-0105",
       "specialty": "Pediatrics",
-      "qualifications": "MD, FAAP",
-      "experience": "14 years",
-      "clinicAddress": "Children's Health Center, 654 Kids Lane, Boston",
-      "rating": 4.9,
-      "reviewCount": 267,
+      "qualifications": "MBBS, DCH",
+      "experience": "10 years",
+      "clinicAddress": "Happy Kids Clinic, 321 Child Avenue, Houston",
+      "rating": 4.6,
+      "reviewCount": 98,
       "consultationFee": 100,
       "videoConsultationFee": 70,
       "availability": {
         "clinic": [
           "Monday",
-          "Tuesday",
-          "Wednesday"
+          "Thursday",
+          "Saturday"
         ],
         "online": [
-          "Thursday",
-          "Friday",
-          "Saturday"
+          "Tuesday",
+          "Wednesday",
+          "Friday"
         ]
       },
       "timeSlots": [
-        "09:00",
         "10:00",
         "11:00",
+        "12:00",
         "14:00",
-        "15:00",
-        "16:00"
+        "15:00"
       ],
-      "image": "/placeholder.svg?height=200&width=200",
-      "about": "Pediatrician dedicated to providing comprehensive care for children and adolescents.",
+      "image": "https://i.postimg.cc/qBNfp8Lf/dr-aisha.jpg",
+      "about": "Pediatrician dedicated to children's health and wellness.",
       "consultationType": [
         "clinic",
         "video",
         "call"
+      ]
+    },
+      {
+      "id": "5",
+      "name": "Dr. Rajesh Patel",
+      "email": "rajesh.patel@example.com",
+      "password": "password123",
+      "phone": "+1-555-0105",
+      "specialty": "Orthopedics",
+      "qualifications": "MBBS, MS Ortho",
+      "experience": "14 years",
+      "clinicAddress": "Bone & Joint Center, 654 Spine Road, San Francisco",
+      "rating": 4.5,
+      "reviewCount": 121,
+      "consultationFee": 180,
+      "videoConsultationFee": 130,
+      "availability": {
+        "clinic": [
+          "Tuesday",
+          "Thursday",
+          "Saturday"
+        ],
+        "online": [
+          "Monday",
+          "Wednesday",
+          "Friday"
+        ]
+      },
+      "timeSlots": [
+        "09:30",
+        "10:30",
+        "11:30",
+        "13:30",
+        "14:30"
+      ],
+      "image": "https://i.postimg.cc/xCc0rBCh/dr-rajesh.jpg",
+      "about": "Orthopedic surgeon with extensive experience in joint replacements and sports injuries.",
+      "consultationType": [
+        "clinic",
+        "video"
       ]
     },
     {
       "id": "6",
-      "name": "Dr. Robert Kim",
-      "email": "robert.kim@email.com",
-      "password": "doctor123",
+      "name": "Dr. Neha Mehta",
+      "email": "neha.mehta@example.com",
+      "password": "password123",
       "phone": "+1-555-0106",
-      "specialty": "Psychiatry",
-      "qualifications": "MD, MRCPsych",
-      "experience": "16 years",
-      "clinicAddress": "Mental Health Center, 987 Wellness Blvd, Seattle",
-      "rating": 4.8,
-      "reviewCount": 145,
-      "consultationFee": 160,
-      "videoConsultationFee": 120,
-      "availability": {
-        "clinic": [
-          "Tuesday",
-          "Thursday",
-          "Friday"
-        ],
-        "online": [
-          "Monday",
-          "Wednesday",
-          "Saturday"
-        ]
-      },
-      "timeSlots": [
-        "10:00",
-        "11:00",
-        "14:00",
-        "15:00",
-        "16:00"
-      ],
-      "image": "/placeholder.svg?height=200&width=200",
-      "about": "Psychiatrist specializing in mental health disorders and therapy.",
-      "consultationType": [
-        "clinic",
-        "video",
-        "call"
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Dr. Amanda Davis",
-      "email": "amanda.davis@email.com",
-      "password": "doctor123",
-      "phone": "+1-555-0107",
-      "specialty": "General Medicine",
-      "qualifications": "MD, ABIM",
-      "experience": "10 years",
-      "clinicAddress": "Family Health Clinic, 147 Main Street, Denver",
-      "rating": 4.7,
-      "reviewCount": 198,
-      "consultationFee": 90,
-      "videoConsultationFee": 60,
+      "specialty": "Gynecology",
+      "qualifications": "MBBS, MD (Gynae)",
+      "experience": "11 years",
+      "clinicAddress": "Women's Health Clinic, 987 Wellness Blvd, Seattle",
+      "rating": 4.9,
+      "reviewCount": 178,
+      "consultationFee": 130,
+      "videoConsultationFee": 90,
       "availability": {
         "clinic": [
           "Monday",
@@ -275,66 +232,130 @@
         ]
       },
       "timeSlots": [
-        "08:00",
-        "09:00",
-        "10:00",
-        "13:00",
+        "08:30",
+        "09:30",
+        "10:30",
         "14:00",
         "15:00"
       ],
-      "image": "/placeholder.svg?height=200&width=200",
-      "about": "General practitioner providing comprehensive primary care services.",
+      "image": "https://i.postimg.cc/D09HMMJr/dr-neha.jpg",
+      "about": "Gynecologist focused on women's reproductive health and wellness.",
       "consultationType": [
         "clinic",
         "video",
         "call"
       ]
-    }
+      }
   ],
   "patients": [
     {
       "id": "1",
       "name": "John Doe",
       "email": "john@example.com",
-      "password": "patient123",
+      "password": "password123",
       "phone": "+1-555-1001"
-    },
-    {
-      "id": "2",
-      "name": "Mohan Das",
-      "email": "mohan@example.com",
-      "password": "mohan123",
-      "phone": "+1-545-1001"
     }
   ],
   "appointments": [
     {
-      "id": "1753449750705",
+      "id": "1753686864324",
       "doctorId": "1",
       "patientId": "1",
       "doctorName": "Dr. Sarah Johnson",
       "patientName": "John Doe",
       "specialty": "Cardiology",
-      "date": "2025-08-07",
+      "date": "2025-07-30",
+      "time": "11:00",
+      "status": "confirmed",
+      "consultationType": "clinic",
+      "symptoms": "",
+      "fee": 150
+    },
+    {
+      "id": "1753686925998",
+      "doctorId": "4",
+      "patientId": "1",
+      "doctorName": "Dr. Aisha Khan",
+      "patientName": "John Doe",
+      "specialty": "Pediatrics",
+      "date": "2025-07-29",
       "time": "12:00",
       "status": "confirmed",
       "consultationType": "video",
-      "symptoms": "hshshs",
-      "fee": 100
+      "symptoms": "",
+      "fee": 70
     },
     {
-      "id": "1753449220705",
-      "doctorId": "2",
-      "patientId": "2",
+      "id": "1753687362987",
+      "doctorId": "5",
+      "patientId": "1",
+      "doctorName": "Dr. Rajesh Patel",
+      "patientName": "John Doe",
+      "specialty": "Orthopedics",
+      "date": "2025-07-31",
+      "time": "11:30",
+      "status": "confirmed",
+      "consultationType": "clinic",
+      "symptoms": "",
+      "fee": 180
+    },
+      {
+      "id": "1753687815468",
+      "doctorId": "6",
+      "patientId": "1",
+      "doctorName": "Dr. Neha Mehta",
+      "patientName": "John Doe",
+      "specialty": "Gynecology",
+      "date": "2025-08-01",
+      "time": "14:00",
+      "status": "confirmed",
+      "consultationType": "clinic",
+      "symptoms": "",
+      "fee": 130
+    },
+    {
+      "id": "1753689506109",
+      "doctorId": "1",
+      "patientId": "1",
       "doctorName": "Dr. Sarah Johnson",
       "patientName": "John Doe",
       "specialty": "Cardiology",
-      "date": "2025-08-07",
+      "date": "2025-07-30",
       "time": "14:00",
       "status": "confirmed",
-      "consultationType": "video",
-      "symptoms": "hshshs",
-      "fee": 100
+      "consultationType": "clinic",
+      "symptoms": "",
+      "fee": 150
+    },
+    {
+      "id": "1753689977919",
+      "doctorId": "3",
+      "patientId": "1",
+      "doctorName": "Dr. Emily Rodriguez",
+      "patientName": "John Doe",
+      "specialty": "Neurology",
+      "date": "2025-08-01",
+      "time": "15:00",
+      "status": "confirmed",
+      "consultationType": "clinic",
+      "symptoms": "",
+      "fee": 200
+    },
+    {
+      "id": "1753690434227",
+      "doctorId": "2",
+      "patientId": "1",
+      "doctorName": "Dr. Michael Chen",
+      "patientName": "John Doe",
+      "specialty": "Dermatology",
+      "date": "2025-08-06",
+      "time": "15:00",
+      "status": "confirmed",
+      "consultationType": "call",
+      "symptoms": "",
+      "fee": 80
     }
-  ]
-}
+  ],
+  "prescriptions": []
+  }
+  
