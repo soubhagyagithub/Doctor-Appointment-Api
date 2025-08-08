@@ -356,6 +356,25 @@
       "fee": 80
     }
   ],
-  "prescriptions": []
+  "prescriptions": [
+    {
+    "patientId": "1",
+    "patientName": "John Doe",
+    "appointmentId": "1753686864324",
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "dosage": "500mg",
+        "duration": "2",
+        "instructions": "Take after meal"
+      }
+    ],
+    "notes": "",
+    "doctorId": "1",
+    "doctorName": "Dr. Sarah Johnson",
+    "id": "1754651775308",
+    "dateCreated": "2025-08-08T11:16:15.308Z"
+  }
+  ]
   }
   
